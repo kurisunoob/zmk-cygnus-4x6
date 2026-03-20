@@ -1,9 +1,13 @@
+#include "cygnus.dtsi" 
 / {
     chosen {
-        zmk,keyboard = &keyboard;
+        zmk,kscan = &mock_kscan;
     };
 
-    keyboard: zmk-keyboard {
-        compatible = "zmk,keyboard";
+    mock_kscan: mock_kscan_0 {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
     };
 };
