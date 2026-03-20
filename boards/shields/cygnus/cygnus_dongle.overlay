@@ -1,0 +1,9 @@
+/ {
+    chosen {
+        zmk,keyboard = &keyboard;
+    };
+
+    keyboard: zmk-keyboard {
+        compatible = "zmk,keyboard";
+    };
+};
