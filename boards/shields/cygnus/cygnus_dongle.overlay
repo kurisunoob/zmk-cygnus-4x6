@@ -10,7 +10,7 @@
     mock_kscan: kscan_mock {
         compatible = "zmk,kscan-mock";
         columns = <12>; // 对应左右手总列数 (6x2)
-        rows = <4>;    // 对应行数
+        rows = <5>;    // 对应行数
         events = <0>;
     };
 
