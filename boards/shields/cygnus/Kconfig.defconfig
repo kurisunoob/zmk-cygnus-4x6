@@ -6,6 +6,21 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config CONFIG_ZMK_SPLIT
+    default y
+
+config CONFIG_ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 2
+
+config CONFIG_BT_MAX_CONN
+    default 3
+
+config CONFIG_ZMK_COMBO_MAX_COMBOS_PER_KEY
+    default 7
+
+config CONFIG_BT_MAX_PAIRED
+    default 3
+
 config ZMK_SPLIT
     default y
 
